@@ -14,7 +14,7 @@ public class ach : MonoBehaviour
 
         for(int i = 0; i < lebtn.Length; i++)
         {
-            if (i + 2 > lea)
+            if (i + 1 > lea)
                 lebtn[i].interactable = false;
         }
     }
