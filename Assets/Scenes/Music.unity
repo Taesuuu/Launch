@@ -1625,7 +1625,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -91.485}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.58539027, y: 0.5}
-  m_AnchoredPosition: {x: -106, y: -14}
+  m_AnchoredPosition: {x: -118.5, y: -13.7}
   m_SizeDelta: {x: 79, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &604547931
@@ -3456,7 +3456,6 @@ GameObject:
   - component: {fileID: 1501175159}
   - component: {fileID: 1501175160}
   - component: {fileID: 1501175161}
-  - component: {fileID: 1501175162}
   m_Layer: 0
   m_Name: AudioM
   m_TagString: Untagged
@@ -3518,18 +3517,6 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 1e07686d9c62cd141a03647a474fb144, type: 3}
   bgmPlayer: {fileID: 1074986723}
   sfxPlayer: []
---- !u!114 &1501175162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501175158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37db884d8beed6f409cbe1e5083f73ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1769180527
 GameObject:
   m_ObjectHideFlags: 0
@@ -3562,6 +3549,19 @@ MonoBehaviour:
   lebtn:
   - {fileID: 1788266131}
   - {fileID: 1367173119}
+  btnN:
+  - {fileID: 1788266131}
+  - {fileID: 254589630}
+  - {fileID: 1083751321}
+  - {fileID: 628888686}
+  - {fileID: 1127435337}
+  btnH:
+  - {fileID: 1367173119}
+  - {fileID: 1089455480}
+  - {fileID: 576077102}
+  - {fileID: 201231528}
+  - {fileID: 539892289}
+  play: {fileID: 0}
 --- !u!4 &1769180529
 Transform:
   m_ObjectHideFlags: 0
