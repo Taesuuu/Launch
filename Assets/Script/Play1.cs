@@ -18,7 +18,7 @@ public class Play1 : MonoBehaviour
     [SerializeField] Text txtSongName=null;
     [SerializeField] Text txtSongComposer=null;
     [SerializeField] Image imgDisk=null;
-    int currentSong1=0;
+    public static int currentSong1=0;
 
      private void Start()
     {
@@ -44,7 +44,7 @@ public class Play1 : MonoBehaviour
         txtSongComposer.text=songList[currentSong1].composer;
         imgDisk.sprite=songList[currentSong1].sprite;
 
-        AudioManager.instance.PlayBGM("BGM" + currentSong1);
+        AudioManager.instance.PlayBGM("BGM" + 0);
     }
 
     public void Change1()

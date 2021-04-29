@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class DonMusic : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
-        DontDestroyOnLoad(gameObject);
+        // DontDestroyOnLoad(gameObject);
+        song();
+       
     }
 
     // Update is called once per frame
-    void Update()
+   void song()
     {
-        
+        if (Play1.currentSong1 == 0)
+        {
+            AudioManager.instance.PlayBGM("BGM" + 0);
+        }
+        if (Play1.currentSong1 == 1)
+        {
+            AudioManager.instance.PlayBGM("BGM" + 1);
+        }
+        if (Play1.currentSong1 == 2)
+        {
+            AudioManager.instance.PlayBGM("BGM" + 2);
+        }
+        if (Play1.currentSong1 == 3)
+        {
+            AudioManager.instance.PlayBGM("BGM" + 3);
+        }
+        if (Play1.currentSong1 == 4)
+        {
+            AudioManager.instance.PlayBGM("BGM" + 4);
+        }
     }
 }

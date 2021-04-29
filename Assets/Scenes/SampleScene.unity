@@ -3436,6 +3436,76 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 8
   moleManager: {fileID: 0}
+--- !u!1 &495387630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 495387632}
+  - component: {fileID: 495387631}
+  - component: {fileID: 495387633}
+  m_Layer: 0
+  m_Name: mc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &495387631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495387630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37db884d8beed6f409cbe1e5083f73ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &495387632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495387630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 123, y: 196.875, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &495387633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495387630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1e532c031acb344b00feb667dd1a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx: []
+  bgm:
+  - name: 0
+    clip: {fileID: 8300000, guid: b9dbc947c88fe184789e07adb193c1aa, type: 3}
+  - name: 1
+    clip: {fileID: 8300000, guid: 8233c0d9e7523b3418648059490d385d, type: 3}
+  - name: 2
+    clip: {fileID: 8300000, guid: 84853825669181a4baa522b2af411850, type: 3}
+  - name: 3
+    clip: {fileID: 8300000, guid: faf0cd9212f762c4e9901211b7962e6a, type: 3}
+  - name: 4
+    clip: {fileID: 8300000, guid: 1e07686d9c62cd141a03647a474fb144, type: 3}
+  bgmPlayer: {fileID: 0}
+  sfxPlayer: []
 --- !u!1 &507763426
 GameObject:
   m_ObjectHideFlags: 0
