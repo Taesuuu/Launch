@@ -54,5 +54,11 @@ public class Play1 : MonoBehaviour
     public void Change2()
     {
         SceneManager.LoadScene("SampleScene");
+        MoleManager.interval = 1f;
+    }
+    public void Change3()
+    {
+        SceneManager.LoadScene("SampleScene");
+        MoleManager.interval = 0.1f;
     }
 }

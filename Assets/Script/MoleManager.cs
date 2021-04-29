@@ -19,11 +19,12 @@ public class MoleManager : MonoBehaviour
     public GameObject bad;
     public int m;
 
-    public float interval;
+    public static float interval;
 
     void Start()
     {
-      interval = 1;
+        
+      Debug.Log(interval);
       StartCoroutine("Moleup");
     }
 
