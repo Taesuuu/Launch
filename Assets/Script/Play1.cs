@@ -18,6 +18,9 @@ public class Play1 : MonoBehaviour
     [SerializeField] Text txtSongName=null;
     [SerializeField] Text txtSongComposer=null;
     [SerializeField] Image imgDisk=null;
+    public GameObject[] btnlistNo;
+    public GameObject[] btnlisthr;
+
     int currentSong1=0;
 
      private void Start()
@@ -43,6 +46,20 @@ public class Play1 : MonoBehaviour
         txtSongName.text=songList[currentSong1].name;
         txtSongComposer.text=songList[currentSong1].composer;
         imgDisk.sprite=songList[currentSong1].sprite;
+        for(int i =0; i<5; i++)
+        {
+            btnlistNo[i].SetActive(false);
+            btnlisthr[i].SetActive(false);
+        }
+        //btnlistNo[0].SetActive(false);
+        //btnlistNo[1].SetActive(false);
+        //btnlistNo[2].SetActive(false);
+        //btnlistNo[3].SetActive(false);
+        //btnlistNo[4].SetActive(false);
+        btnlisthr[currentSong1].SetActive(true);
+        btnlistNo[currentSong1].SetActive(true);
+        
+
 
         AudioManager.instance.PlayBGM("BGM" + currentSong1);
     }
