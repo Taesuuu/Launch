@@ -11,13 +11,13 @@ public class ach : MonoBehaviour
     void Start()
     {
 
-        int lea = PlayerPrefs.GetInt("lea", 3);
+        int lea = PlayerPrefs.GetInt("lea", 2);
 
         for (int i = 0; i < lebtn.Length; i++)
         {
             if (i + 2 > lea)
             {
-
+                lebtn[i].interactable = false;
             }
 
         }
