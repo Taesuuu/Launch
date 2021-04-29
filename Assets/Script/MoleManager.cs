@@ -19,12 +19,19 @@ public class MoleManager : MonoBehaviour
     public GameObject bad;
     public int m;
 
-    public float interval;
+    public static int sonum;
+
+    public static float interval = 1;
 
     void Start()
     {
-      interval = 1;
+
+      Debug.Log(sonum);
+      Debug.Log(interval);
+
       StartCoroutine("Moleup");
+      AudioManager.instance.PlayBGM("BGM" + sonum);
+     
     }
 
   IEnumerator Moleup()
@@ -41,7 +48,6 @@ public class MoleManager : MonoBehaviour
   }
     private void Update()
     {
-        
+
     }
 }
-
