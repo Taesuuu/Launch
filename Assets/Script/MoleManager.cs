@@ -19,7 +19,7 @@ public class MoleManager : MonoBehaviour
     public GameObject bad;
     public int m;
 
-    float interval;
+    public float interval;
 
     void Start()
     {
@@ -41,7 +41,7 @@ public class MoleManager : MonoBehaviour
   }
     private void Update()
     {
-        Debug.Log(m);
+        
     }
 }
 
