@@ -14,11 +14,14 @@ public class Holeper : MonoBehaviour, IPointerDownHandler
         gameObject.SetActive(false);
         moleManager.badA[holeNum3].SetActive(false);
         moleManager.perfect1.SetActive(true);
+        moleManager.eff[holeNum3].SetActive(false);
+        
         Invoke("perviw", 0.4f);
         moleManager.perB[holeNum3].SetActive(true);
     }
     public void perviw()
     {
         moleManager.perfect1.SetActive(false);
+        
     }
 }

@@ -7,6 +7,7 @@ public class MoleManager : MonoBehaviour
     // Start is called before the first frame update
 
     public GameObject[] badA;
+    public GameObject[] eff;
     public GameObject[] badB;
     public GameObject[] perB;
     public GameObject[] goodB;
@@ -17,6 +18,11 @@ public class MoleManager : MonoBehaviour
     public GameObject perfect1;
     public GameObject good;
     public GameObject bad;
+
+    public GameObject[] blue;
+    public GameObject[] yellow;
+    public GameObject[] red;
+
     public int m;
 
     public static int sonum;
@@ -43,7 +49,8 @@ public class MoleManager : MonoBehaviour
       if(!badA[m].activeSelf && ! badB[m].activeSelf)
       {
         badA[m].SetActive(true);
-      }
+        eff[m].SetActive(true);
+       }
     }
   }
     private void Update()
