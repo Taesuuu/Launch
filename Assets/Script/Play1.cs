@@ -21,6 +21,8 @@ public class Play1 : MonoBehaviour
     [SerializeField] Text txtSongComposer=null;
     [SerializeField] Image imgDisk=null;
 
+    
+
     //public MoleManager mo;
 
     public GameObject[] btnlistNo;
@@ -65,6 +67,8 @@ public class Play1 : MonoBehaviour
         btnlistNo[currentSong1].SetActive(true);
 
         MoleManager.sonum = currentSong1;
+        MoleManager.songs = songList[currentSong1].name;
+        MoleManager.namez = songList[currentSong1].composer;
 
         AudioManager.instance.PlayBGM("BGM" + currentSong1);
     }

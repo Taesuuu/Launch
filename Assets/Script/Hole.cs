@@ -15,7 +15,7 @@ public class Hole : MonoBehaviour, IPointerDownHandler
         moleManager.badA[holeNum1].SetActive(false);
         moleManager.bad.SetActive(true);
         moleManager.eff[holeNum1].SetActive(false);
-        
+        moleManager.score += 100;
         Invoke("badviw", 0.4f);
         moleManager.badB[holeNum1].SetActive(true);
        

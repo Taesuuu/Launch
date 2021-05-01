@@ -8,6 +8,7 @@ public class Mole : MonoBehaviour
     public MoleManager moleManager;
 
     void DisableObj(){
+      
       gameObject.SetActive(false);
     }
     void HoleOn1(){
@@ -31,5 +32,6 @@ public class Mole : MonoBehaviour
     void HoleOff3()
     {
         moleManager.hole3[moleNum].SetActive(false);
+        moleManager.score -= 50;
     }
 }
