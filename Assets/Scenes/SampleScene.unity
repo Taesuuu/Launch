@@ -1134,7 +1134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 1
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 0}
+  HPBar: {fileID: 1245576673}
 --- !u!95 &121628846
 Animator:
   serializedVersion: 3
@@ -3224,7 +3224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 0
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 0}
+  HPBar: {fileID: 1245576673}
 --- !u!95 &354833617
 Animator:
   serializedVersion: 3
@@ -4813,7 +4813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 4
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 0}
+  HPBar: {fileID: 1245576673}
 --- !u!95 &455768893
 Animator:
   serializedVersion: 3
@@ -5539,7 +5539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 6
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 0}
+  HPBar: {fileID: 1245576673}
 --- !u!95 &631572043
 Animator:
   serializedVersion: 3
@@ -6568,7 +6568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 8
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 0}
+  HPBar: {fileID: 1245576673}
 --- !u!95 &775123955
 Animator:
   serializedVersion: 3
@@ -8108,7 +8108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 2
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 0}
+  HPBar: {fileID: 1245576673}
 --- !u!95 &1011090942
 Animator:
   serializedVersion: 3
@@ -8376,7 +8376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 7
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 0}
+  HPBar: {fileID: 1245576673}
 --- !u!95 &1019747977
 Animator:
   serializedVersion: 3
@@ -13297,7 +13297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 5
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 0}
+  HPBar: {fileID: 1245576673}
 --- !u!95 &1688496516
 Animator:
   serializedVersion: 3
@@ -13964,7 +13964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 3
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 0}
+  HPBar: {fileID: 1245576673}
 --- !u!95 &1738211551
 Animator:
   serializedVersion: 3
