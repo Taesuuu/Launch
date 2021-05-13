@@ -7,7 +7,7 @@ public class Hole : MonoBehaviour, IPointerDownHandler
 {
     public int holeNum1;
     public MoleManager moleManager;
-    public MoleManager bad;
+    public static MoleManager bad;
 
     public void OnPointerDown(PointerEventData eventData)
     {
