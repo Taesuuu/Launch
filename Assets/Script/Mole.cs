@@ -6,6 +6,7 @@ public class Mole : MonoBehaviour
 {
     public int moleNum;
     public MoleManager moleManager;
+    public HPBar HPBar;
 
     void DisableObj(){
       
@@ -33,5 +34,6 @@ public class Mole : MonoBehaviour
     {
         moleManager.hole3[moleNum].SetActive(false);
         moleManager.score -= 50;
+        HPBar.hp.value -= 10f;
     }
 }

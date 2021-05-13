@@ -8,6 +8,7 @@ public class Holegood : MonoBehaviour, IPointerDownHandler
     public int holeNum2;
     public MoleManager moleManager;
     public MoleManager good;
+    public HPBar HPBar;
 
     public void OnPointerDown(PointerEventData eventData)
     {
@@ -18,6 +19,7 @@ public class Holegood : MonoBehaviour, IPointerDownHandler
         moleManager.score += 200;
         Invoke("goodviw", 0.4f);
         moleManager.goodB[holeNum2].SetActive(true);
+        HPBar.hp.value = 0f;
     }
     public void goodviw()
     {
