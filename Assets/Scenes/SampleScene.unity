@@ -576,7 +576,7 @@ MonoBehaviour:
   holeNum3: 2
   moleManager: {fileID: 1350498396}
   perfect1: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &29746084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -667,7 +667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holeNum1: 8
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &78164834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -759,7 +759,7 @@ MonoBehaviour:
   holeNum2: 3
   moleManager: {fileID: 1350498396}
   good: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &79998684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -913,7 +913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holeNum1: 1
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &118513608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1134,7 +1134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 1
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 0}
 --- !u!95 &121628846
 Animator:
   serializedVersion: 3
@@ -1273,7 +1273,7 @@ MonoBehaviour:
   holeNum3: 4
   moleManager: {fileID: 1350498396}
   perfect1: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &124417335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1365,7 +1365,7 @@ MonoBehaviour:
   holeNum3: 0
   moleManager: {fileID: 1350498396}
   perfect1: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &130011710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1712,7 +1712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holeNum1: 7
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &180512657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2217,7 +2217,7 @@ MonoBehaviour:
   holeNum2: 7
   moleManager: {fileID: 1350498396}
   good: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &234378392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2535,7 +2535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holeNum1: 5
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &298626214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2646,7 +2646,7 @@ MonoBehaviour:
   holeNum2: 8
   moleManager: {fileID: 1350498396}
   good: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &304231324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2793,7 +2793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holeNum1: 0
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &308656455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3137,7 +3137,7 @@ MonoBehaviour:
   holeNum3: 6
   moleManager: {fileID: 1350498396}
   perfect1: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &337995272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3224,7 +3224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 0
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 0}
 --- !u!95 &354833617
 Animator:
   serializedVersion: 3
@@ -4058,7 +4058,7 @@ MonoBehaviour:
   holeNum3: 8
   moleManager: {fileID: 1350498396}
   perfect1: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &386598551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4169,7 +4169,7 @@ MonoBehaviour:
   holeNum3: 5
   moleManager: {fileID: 1350498396}
   perfect1: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &389925083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4707,7 +4707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holeNum1: 2
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &450941422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4813,7 +4813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 4
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 0}
 --- !u!95 &455768893
 Animator:
   serializedVersion: 3
@@ -5539,7 +5539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 6
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 0}
 --- !u!95 &631572043
 Animator:
   serializedVersion: 3
@@ -6568,7 +6568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 8
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 0}
 --- !u!95 &775123955
 Animator:
   serializedVersion: 3
@@ -7172,7 +7172,7 @@ MonoBehaviour:
   holeNum2: 1
   moleManager: {fileID: 1350498396}
   good: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &824201415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7732,53 +7732,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &907952543
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 499983083076198533, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-    type: 3}
-  m_PrefabInstance: {fileID: 499983083847049498}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 907952545}
-  - component: {fileID: 907952544}
-  m_Layer: 0
-  m_Name: HpM
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &907952544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 499983083076198586, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-    type: 3}
-  m_PrefabInstance: {fileID: 499983083847049498}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907952543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cf96af2d6049d94887ca31617f81d82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hp: {fileID: 668622728}
---- !u!4 &907952545
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-    type: 3}
-  m_PrefabInstance: {fileID: 499983083847049498}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907952543}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 118.141495, y: 359.39075, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &919067681
 GameObject:
   m_ObjectHideFlags: 0
@@ -7950,7 +7903,7 @@ MonoBehaviour:
   holeNum3: 7
   moleManager: {fileID: 1350498396}
   perfect1: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &948917008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8155,7 +8108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 2
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 0}
 --- !u!95 &1011090942
 Animator:
   serializedVersion: 3
@@ -8423,7 +8376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 7
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 0}
 --- !u!95 &1019747977
 Animator:
   serializedVersion: 3
@@ -9014,7 +8967,7 @@ MonoBehaviour:
   holeNum2: 5
   moleManager: {fileID: 1350498396}
   good: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &1064664425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9653,6 +9606,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1245576672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1245576674}
+  - component: {fileID: 1245576673}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1245576673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245576672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf96af2d6049d94887ca31617f81d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: {fileID: 668622728}
+--- !u!4 &1245576674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245576672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.230755, y: 227.6703, z: -23.716717}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1260663641
 GameObject:
   m_ObjectHideFlags: 0
@@ -9819,7 +9816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holeNum1: 4
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &1268151935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11442,7 +11439,7 @@ MonoBehaviour:
   holeNum2: 4
   moleManager: {fileID: 1350498396}
   good: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &1459011840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12850,7 +12847,7 @@ MonoBehaviour:
   holeNum2: 0
   moleManager: {fileID: 1350498396}
   good: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &1602391496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13300,7 +13297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 5
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 0}
 --- !u!95 &1688496516
 Animator:
   serializedVersion: 3
@@ -13792,7 +13789,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 907952544}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: HPBar, Assembly-CSharp
         m_MethodName: perhp
         m_Mode: 1
@@ -13967,7 +13964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moleNum: 3
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 0}
 --- !u!95 &1738211551
 Animator:
   serializedVersion: 3
@@ -14555,7 +14552,7 @@ MonoBehaviour:
   holeNum3: 1
   moleManager: {fileID: 1350498396}
   perfect1: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &1797716988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14816,7 +14813,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 907952544}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: HPBar, Assembly-CSharp
         m_MethodName: goodhp
         m_Mode: 1
@@ -14881,7 +14878,7 @@ MonoBehaviour:
   holeNum3: 3
   moleManager: {fileID: 1350498396}
   perfect1: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &1818257411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15150,7 +15147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holeNum1: 3
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &1834211301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15691,7 +15688,7 @@ MonoBehaviour:
   holeNum2: 2
   moleManager: {fileID: 1350498396}
   good: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &1935777376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15819,7 +15816,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 907952544}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: HPBar, Assembly-CSharp
         m_MethodName: badhp
         m_Mode: 1
@@ -16182,7 +16179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holeNum1: 6
   moleManager: {fileID: 1350498396}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &2062084483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16884,7 +16881,7 @@ MonoBehaviour:
   holeNum2: 6
   moleManager: {fileID: 1350498396}
   good: {fileID: 0}
-  HPBar: {fileID: 907952544}
+  HPBar: {fileID: 1245576673}
 --- !u!114 &2134373429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17005,77 +17002,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &499983083847049498
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 499983083076198533, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_Name
-      value: HpM
-      objectReference: {fileID: 0}
-    - target: {fileID: 499983083076198586, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: hp
-      value: 
-      objectReference: {fileID: 668622728}
-    - target: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 118.141495
-      objectReference: {fileID: 0}
-    - target: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 359.39075
-      objectReference: {fileID: 0}
-    - target: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 499983083076198587, guid: b4dbb6d95400c064499e8deaaa3b41ac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b4dbb6d95400c064499e8deaaa3b41ac, type: 3}
