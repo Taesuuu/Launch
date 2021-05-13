@@ -5,16 +5,25 @@ using UnityEngine.UI;
 
 public class HPBar : MonoBehaviour
 {
-    public MoleManager moleManager;
     public Slider hp;
-    public float dam;
 
-   
+    public void badhp()
+    {
+        hp.value -= 5.0f;
+    }
+    public void goodhp()
+    {
+        hp.value = 0f;
+    }
+    public void perhp()
+    {
+        hp.value += 5.0f;
+    }
+
     void Update()
     {
-        if(moleManager.score == -50){
 
-            hp.value -= dam;
-        }
+        hp.value -= 1.0f * Time.deltaTime;
     }
-}
+    }
+
