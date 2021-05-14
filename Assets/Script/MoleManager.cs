@@ -42,6 +42,7 @@ public class MoleManager : MonoBehaviour
     public TextMeshProUGUI endnames;
     public TextMeshProUGUI endscore;
     public AudioSource ad;
+    public HPBar HPBar;
 
     public static string songs;
     public static string namez;
@@ -115,6 +116,23 @@ public class MoleManager : MonoBehaviour
 
         if(times > maxtime)
         {
+          
+            ad.Stop();
+            endgame.SetActive(true);
+            endso.text = songs;
+            endnames.text = namez;
+            endscore.text = "Score : " + score.ToString();
+            ad.Stop();
+            for (int z = 0; z < badA.Length; z++)
+            {
+                badA[z].SetActive(false);
+                eff[z].SetActive(false);
+            }
+            Time.timeScale = 0;
+        }
+        if (HPBar.hp.value == 0)
+        {
+
             ad.Stop();
             endgame.SetActive(true);
             endso.text = songs;
@@ -196,7 +214,7 @@ public class MoleManager : MonoBehaviour
     {
         switch(sonum){
             case 0: playgame = "02:56";
-                maxtime = 10;
+                maxtime = 10;              
                 break;
             case 1:
                 playgame = "02:34";

@@ -9636,6 +9636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: {fileID: 668622728}
+  moleManager: {fileID: 1350498396}
 --- !u!4 &1245576674
 Transform:
   m_ObjectHideFlags: 0
@@ -10586,6 +10587,7 @@ MonoBehaviour:
   endnames: {fileID: 369337608}
   endscore: {fileID: 1760866818}
   ad: {fileID: 1350498397}
+  HPBar: {fileID: 1245576673}
   gogo: 1
   m: 0
   times: 0
