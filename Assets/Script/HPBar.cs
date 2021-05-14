@@ -6,13 +6,10 @@ using UnityEngine.UI;
 public class HPBar : MonoBehaviour
 {
     public Slider hp;
-    
-   
 
-   
     void Update()
     {
         hp.value -= 1.0f * Time.deltaTime;
     }
-    }
+ }
 
