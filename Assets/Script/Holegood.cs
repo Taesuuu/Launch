@@ -8,7 +8,7 @@ public class Holegood : MonoBehaviour, IPointerDownHandler
     public int holeNum2;
     public MoleManager moleManager;
     public MoleManager good;
-    public HPBar HPBar;
+   
 
     public void OnPointerDown(PointerEventData eventData)
     {
