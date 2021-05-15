@@ -8,7 +8,7 @@ public class Hole : MonoBehaviour, IPointerDownHandler
     public int holeNum1;
     public MoleManager moleManager;
     public static MoleManager bad;
-    public HPBar HPBar;
+    
 
     public void OnPointerDown(PointerEventData eventData)
     {
@@ -20,7 +20,7 @@ public class Hole : MonoBehaviour, IPointerDownHandler
 
         Invoke("badviw", 0.4f);
         moleManager.badB[holeNum1].SetActive(true);
-        HPBar.hp.value -= 5.0f;
+        moleManager.hp.value -= 5.0f;
 
     }
     public void badviw()

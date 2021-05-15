@@ -8,7 +8,7 @@ public class Holeper : MonoBehaviour, IPointerDownHandler
     public int holeNum3;
     public MoleManager moleManager;
     public MoleManager perfect1;
-    public HPBar HPBar;
+    
 
     public void OnPointerDown(PointerEventData eventData)
     {
@@ -19,7 +19,7 @@ public class Holeper : MonoBehaviour, IPointerDownHandler
         moleManager.score += 300;
         Invoke("perviw", 0.4f);
         moleManager.perB[holeNum3].SetActive(true);
-        HPBar.hp.value += 5.0f;
+        moleManager.hp.value += 5.0f;
     }
     public void perviw()
     {

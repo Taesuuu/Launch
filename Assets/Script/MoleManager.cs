@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 public class MoleManager : MonoBehaviour
 {
@@ -42,7 +43,8 @@ public class MoleManager : MonoBehaviour
     public TextMeshProUGUI endnames;
     public TextMeshProUGUI endscore;
     public AudioSource ad;
-    public HPBar HPBar;
+
+    public Slider hp;
 
     public static string songs;
     public static string namez;
@@ -99,6 +101,7 @@ public class MoleManager : MonoBehaviour
 
     private void Update()
     {
+        hp.value -= 1.0f * Time.deltaTime;
         times += Time.deltaTime;
         scoreText.text = score.ToString();
         if (Input.GetButtonDown("Cancel"))
@@ -130,7 +133,7 @@ public class MoleManager : MonoBehaviour
             }
             Time.timeScale = 0;
         }
-        if (HPBar.hp.value == 0)
+        if (hp.value == 0)
         {
 
             ad.Stop();
