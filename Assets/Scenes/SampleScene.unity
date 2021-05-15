@@ -9617,7 +9617,7 @@ GameObject:
   - component: {fileID: 1245576674}
   - component: {fileID: 1245576673}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: hp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9687,7 +9687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 7.3299866, y: -13.799988}
+  m_AnchoredPosition: {x: 7.330078, y: -13.800049}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1260663643
