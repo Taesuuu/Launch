@@ -20,7 +20,7 @@ public class Hole : MonoBehaviour, IPointerDownHandler
 
         Invoke("badviw", 0.4f);
         moleManager.badB[holeNum1].SetActive(true);
-        moleManager.hp.value -= 5.0f;
+        moleManager.hp.value -= 3.0f;
 
     }
     public void badviw()

@@ -19,7 +19,8 @@ public class Holegood : MonoBehaviour, IPointerDownHandler
         moleManager.score += 200;
         Invoke("goodviw", 0.4f);
         moleManager.goodB[holeNum2].SetActive(true);
-        
+        moleManager.hp.value += 2.0f;
+
     }
     public void goodviw()
     {
