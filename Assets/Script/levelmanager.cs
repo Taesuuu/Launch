@@ -20,22 +20,25 @@ public class levelmanager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        level = PlayerPrefs.GetInt("levels");
         
-       // PlayerPrefs.SetInt("levels", level);
+        curexp = PlayerPrefs.GetInt("exp");
+
+       
     }
 
     // Update is called once per frame
     void Update()
     {
         PlayerPrefs.SetInt("levels", level);
+        
         maxlevel = PlayerPrefs.GetInt("levels");
         lev.fillAmount = curexp / (float)maxexp[maxlevel - 1];
 
         if (curexp >= maxexp[maxlevel - 1])
         {
             level++;
-            curexp = 0;
-            
+            curexp = 0;  
         }
         Debug.Log(maxlevel);
     }
