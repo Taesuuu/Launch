@@ -8,7 +8,7 @@ public class levelmanager : MonoBehaviour
 {
 
     //public GameObject[] expPool;
-    public int level = 1;
+    public static int level = 1;
     public int maxlevel;
     public int[] maxexp;
     public static int curexp;
@@ -20,21 +20,24 @@ public class levelmanager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        maxlevel = PlayerPrefs.GetInt("levels", level);
+        
+       // PlayerPrefs.SetInt("levels", level);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        PlayerPrefs.SetInt("levels", level);
+        maxlevel = PlayerPrefs.GetInt("levels");
         lev.fillAmount = curexp / (float)maxexp[maxlevel - 1];
 
         if (curexp >= maxexp[maxlevel - 1])
         {
-            maxlevel++;
+            level++;
             curexp = 0;
+            
         }
-        Debug.Log(curexp);
+        Debug.Log(maxlevel);
     }
 
     private void LateUpdate()

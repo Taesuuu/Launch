@@ -171,6 +171,7 @@ public class MoleManager : MonoBehaviour
     {
         SceneManager.LoadScene("Music");
         levelmanager.curexp += 7;
+        //levelmanager.maxlevel = PlayerPrefs.GetInt("maxlevel", levelmanager.level);
     }
 
     public void menuUp()
