@@ -11,6 +11,8 @@ public class Song
     public string composer;
     public int bpm;
     public Sprite sprite;
+
+
 }
 public class Play1 : MonoBehaviour
 {
@@ -18,7 +20,15 @@ public class Play1 : MonoBehaviour
     [SerializeField] Text txtSongName=null;
     [SerializeField] Text txtSongComposer=null;
     [SerializeField] Image imgDisk=null;
-    public static int currentSong1=0;
+
+
+
+    //public MoleManager mo;
+
+    public GameObject[] btnlistNo;
+    public GameObject[] btnlisthr;
+
+    public int currentSong1=0;
 
      private void Start()
     {
@@ -43,8 +53,24 @@ public class Play1 : MonoBehaviour
         txtSongName.text=songList[currentSong1].name;
         txtSongComposer.text=songList[currentSong1].composer;
         imgDisk.sprite=songList[currentSong1].sprite;
+        for(int i =0; i<5; i++)
+        {
+            btnlistNo[i].SetActive(false);
+            btnlisthr[i].SetActive(false);
+        }
+        //btnlistNo[0].SetActive(false);
+        //btnlistNo[1].SetActive(false);
+        //btnlistNo[2].SetActive(false);
+        //btnlistNo[3].SetActive(false);
+        //btnlistNo[4].SetActive(false);
+        btnlisthr[currentSong1].SetActive(true);
+        btnlistNo[currentSong1].SetActive(true);
 
-        AudioManager.instance.PlayBGM("BGM" + 0);
+        MoleManager.sonum = currentSong1;
+        MoleManager.songs = songList[currentSong1].name;
+        MoleManager.namez = songList[currentSong1].composer;
+
+        AudioManager.instance.PlayBGM("BGM" + currentSong1);
     }
 
     public void Change1()
@@ -54,5 +80,11 @@ public class Play1 : MonoBehaviour
     public void Change2()
     {
         SceneManager.LoadScene("SampleScene");
+        MoleManager.interval = 1f;
+    }
+    public void Change3()
+    {
+        SceneManager.LoadScene("SampleScene");
+        MoleManager.interval = 0.5f;
     }
 }

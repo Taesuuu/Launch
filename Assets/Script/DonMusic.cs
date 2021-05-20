@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class DonMusic : MonoBehaviour
 {
+    // Start is called before the first frame update
+    void Start()
+    {
+       // DontDestroyOnLoad(gameObject);
+    }
 
     private void Start()
     {
-       DontDestroyOnLoad(gameObject);    
+       DontDestroyOnLoad(gameObject);
     }
 
 }
