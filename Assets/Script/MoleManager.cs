@@ -32,6 +32,12 @@ public class MoleManager : MonoBehaviour
     public GameObject scores;
     public GameObject endgame;
 
+    public Image[] shields;
+
+    public int shiledcount;
+    public int permaxcount;
+    public int curcount;
+
     public TextMeshProUGUI so;
     public TextMeshProUGUI names;
     public TextMeshProUGUI scoreText;
@@ -67,6 +73,8 @@ public class MoleManager : MonoBehaviour
     void Start()
     {
         ad = GetComponent<AudioSource>();
+        permaxcount = 3;
+        curcount = 0;
         gogo = true;
         score = 0;
         endgame.SetActive(false);
@@ -104,6 +112,7 @@ public class MoleManager : MonoBehaviour
 
     private void Update()
     {
+        UpdateLife(shiledcount);
         hp.value -= 1.0f * Time.deltaTime;
         times += Time.deltaTime;
         scoreText.text = score.ToString();
@@ -264,5 +273,17 @@ public class MoleManager : MonoBehaviour
     public void coundown()
     {
         count1.SetActive(false);
+    }
+
+    public void UpdateLife(int shiled)
+    {
+        for (int index = 0; index < 3; index++)
+        {
+            shields[index].color = new Color(1, 1, 1, 0);
+        }
+        for (int index = 0; index < shiled; index++)
+        {
+            shields[index].color = new Color(1, 1, 1, 1);
+        }
     }
 }
