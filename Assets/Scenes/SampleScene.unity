@@ -10598,6 +10598,9 @@ MonoBehaviour:
   - {fileID: 1256531456}
   - {fileID: 1844664706}
   - {fileID: 1979101697}
+  shiledcount: 0
+  permaxcount: 0
+  curcount: 0
   so: {fileID: 1467432571}
   names: {fileID: 677594648}
   scoreText: {fileID: 1015448862}
