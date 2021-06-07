@@ -33,7 +33,7 @@ public class Mole : MonoBehaviour
     void HoleOff3()
     {
         moleManager.hole3[moleNum].SetActive(false);
-        if(moleManager.shiledcount >= 0)
+        if(moleManager.shiledcount > 0)
         {
             moleManager.shiledcount -= 1;
         }else
