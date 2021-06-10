@@ -52,6 +52,7 @@ public class MoleManager : MonoBehaviour
 
     public Slider hp;
 
+
     
     //public int[] maxexp;
 
@@ -139,7 +140,7 @@ public class MoleManager : MonoBehaviour
             endscore.text = "Score : " + score.ToString();
             ad.Stop();
 
-           // levelmanager.curexp += 5;
+            
 
             //if (levelmanager.curexp >= maxexp[levelmanager.level - 1])
             //{
@@ -163,7 +164,7 @@ public class MoleManager : MonoBehaviour
             endnames.text = namez;
             endscore.text = "Score : " + score.ToString();
 
-            //levelmanager.curexp += 5;
+            
 
             ad.Stop();
             for (int z = 0; z < badA.Length; z++)
@@ -180,7 +181,7 @@ public class MoleManager : MonoBehaviour
     {
         SceneManager.LoadScene("Music");
         levelmanager.curexp += 7;
-        PlayerPrefs.SetInt("exp", levelmanager.curexp);
+        PlayerPrefs.SetInt("exps", levelmanager.curexp);
         //levelmanager.maxlevel = PlayerPrefs.GetInt("maxlevel", levelmanager.level);
     }
 

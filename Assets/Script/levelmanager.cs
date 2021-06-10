@@ -21,31 +21,32 @@ public class levelmanager : MonoBehaviour
     void Start()
     {
 
-        PlayerPrefs.SetInt("levels", level);
+        level = 1;
+        level = PlayerPrefs.GetInt("levelss");
 
-        maxlevel = PlayerPrefs.GetInt("levels");
-        lev.fillAmount = curexp / (float)maxexp[maxlevel - 1];
-
-        if (curexp >= maxexp[maxlevel - 1])
-        {
-            level++;
-            curexp = 0;
-        }
-        Debug.Log(maxlevel);
-
+        curexp = PlayerPrefs.GetInt("exps");
     }
 
     private void Awake()
     {
-        level = PlayerPrefs.GetInt("levels");
-
-        curexp = PlayerPrefs.GetInt("exp");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        PlayerPrefs.SetInt("levelss", level);
+        PlayerPrefs.SetInt("exps", curexp);
+
+        maxlevel = PlayerPrefs.GetInt("levelss");
+        lev.fillAmount = curexp / (float)maxexp[maxlevel];
+
+        if (curexp >= maxexp[maxlevel])
+        {
+            level++;
+            curexp = 0;
+        }
+        Debug.Log(maxlevel);
     }
 
     private void LateUpdate()
@@ -54,5 +55,8 @@ public class levelmanager : MonoBehaviour
         levelText.text = maxlevel.ToString();
     }
 
-    
+    public void getExp(int i)
+    {
+        curexp += i;
+    }
 }
