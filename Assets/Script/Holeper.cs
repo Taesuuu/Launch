@@ -20,6 +20,12 @@ public class Holeper : MonoBehaviour, IPointerDownHandler
         Invoke("perviw", 0.4f);
         moleManager.perB[holeNum3].SetActive(true);
         moleManager.hp.value += 5.0f;
+        moleManager.curcount += 1;
+        if(moleManager.curcount >= moleManager.permaxcount)
+        {
+            moleManager.shiledcount += 1;
+            moleManager.curcount = 0;
+        }
     }
     public void perviw()
     {
